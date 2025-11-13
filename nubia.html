@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nubia Tourist Attractions</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; background-color: #f0f8ff; }
+    h1 { color: #005f73; }
+    h2 { color: #0a9396; margin-top: 30px; }
+    button { margin: 5px 0; padding: 10px; background-color: #94d2bd; border: none; cursor: pointer; }
+    .links { display: none; margin-bottom: 15px; }
+    a { display: block; margin: 5px 0; color: #0077b6; text-decoration: none; }
+  </style>
+  <script>
+    function toggleLinks(id) {
+      const el = document.getElementById(id);
+      el.style.display = el.style.display === "none" ? "block" : "none";
+    }
+  </script>
+</head>
+<body>
+  <h1>Nubia Tourist Attractions</h1>
+
+  <h2>Historical</h2>
+  <button onclick="toggleLinks('abu')">Abu Simbel Temples</button>
+  <div class="links" id="abu">
+    <a href="https://maps.google.com/?q=Abu+Simbel+Temples" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('philae')">Philae Temple</button>
+  <div class="links" id="philae">
+    <a href="https://maps.google.com/?q=Philae+Temple+Aswan" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('kalabsha')">Kalabsha Temple</button>
+  <div class="links" id="kalabsha">
+    <a href="https://maps.google.com/?q=Kalabsha+Temple+Aswan" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('amda')">Amada Temple</button>
+  <div class="links" id="amda">
+    <a href="https://maps.google.com/?q=Amada+Temple+Nubia" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('saboua')">Wadi El-Saboua Temple</button>
+  <div class="links" id="saboua">
+    <a href="https://maps.google.com/?q=Wadi+El+Saboua+Temple" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <h2>Cultural</h2>
+  <button onclick="toggleLinks('museum')">Nubian Museum</button>
+  <div class="links" id="museum">
+    <a href="https://maps.google.com/?q=Nubian+Museum+Aswan" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('villages')">Traditional Nubian Villages</button>
+  <div class="links" id="villages">
+    <a href="https://maps.google.com/?q=Nubian+Village+Aswan" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <h2>Religious</h2>
+  <button onclick="toggleLinks('monastery')">Monastery of St. Simeon</button>
+  <div class="links" id="monastery">
+    <a href="https://maps.google.com/?q=Monastery+of+St+Simeon+Aswan" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <h2>Natural</h2>
+  <button onclick="toggleLinks('elephantine')">Elephantine Island</button>
+  <div class="links" id="elephantine">
+    <a href="https://maps.google.com/?q=Elephantine+Island+Aswan" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('nobles')">Tombs of the Nobles</button>
+  <div class="links" id="nobles">
+    <a href="https://maps.google.com/?q=Tombs+of+the+Nobles+Aswan" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('unfinished')">Unfinished Obelisk</button>
+  <div class="links" id="unfinished">
+    <a href="https://maps.google.com/?q=Unfinished+Obelisk+Aswan" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+<h2>Back</h2>
+<button onclick="window.location.href='Gov.html'">Back to Regions</button>
+</body>
+</html>

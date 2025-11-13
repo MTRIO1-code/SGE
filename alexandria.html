@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Alexandria Tourist Attractions</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; background-color: #f0f8ff; }
+    h1 { color: #005f73; }
+    h2 { color: #0a9396; margin-top: 30px; }
+    button { margin: 5px 0; padding: 10px; background-color: #94d2bd; border: none; cursor: pointer; }
+    .links { display: none; margin-bottom: 15px; }
+    a { display: block; margin: 5px 0; color: #0077b6; text-decoration: none; }
+  </style>
+  <script>
+    function toggleLinks(id) {
+      const el = document.getElementById(id);
+      el.style.display = el.style.display === "none" ? "block" : "none";
+    }
+  </script>
+</head>
+<body>
+  <h1>Alexandria Tourist Attractions</h1>
+
+  <h2>Historical</h2>
+  <button onclick="toggleLinks('citadel')">Qaitbay Citadel</button>
+  <div class="links" id="citadel">
+    <a href="https://maps.google.com/?q=Qaitbay+Citadel+Alexandria" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('theater')">Roman Theater</button>
+  <div class="links" id="theater">
+    <a href="https://maps.google.com/?q=Roman+Theater+Alexandria" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('kom')">Kom El Shoqafa Catacombs</button>
+  <div class="links" id="kom">
+    <a href="https://maps.google.com/?q=Kom+El+Shoqafa+Catacombs+Alexandria" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('pillar')">Pompey's Pillar</button>
+  <div class="links" id="pillar">
+    <a href="https://maps.google.com/?q=Pompey's+Pillar+Alexandria" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <h2>Cultural</h2>
+  <button onclick="toggleLinks('library')">Bibliotheca Alexandrina</button>
+  <div class="links" id="library">
+    <a href="https://maps.google.com/?q=Bibliotheca+Alexandrina" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('jewels')">Royal Jewelry Museum</button>
+  <div class="links" id="jewels">
+    <a href="https://maps.google.com/?q=Royal+Jewelry+Museum+Alexandria" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('national')">Alexandria National Museum</button>
+  <div class="links" id="national">
+    <a href="https://maps.google.com/?q=Alexandria+National+Museum" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <h2>Natural</h2>
+  <button onclick="toggleLinks('montaza')">Montaza Palace & Gardens</button>
+  <div class="links" id="montaza">
+    <a href="https://maps.google.com/?q=Montaza+Palace+Gardens+Alexandria" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('miami')">Miami Beach</button>
+  <div class="links" id="miami">
+    <a href="https://maps.google.com/?q=Miami+Beach+Alexandria" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('corniche')">Alexandria Corniche</button>
+  <div class="links" id="corniche">
+    <a href="https://maps.google.com/?q=Alexandria+Corniche" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+<h2>Back</h2>
+<button onclick="window.location.href='Gov.html'">Back to Regions</button>
+</body>
+</html>
