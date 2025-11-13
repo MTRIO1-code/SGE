@@ -19,25 +19,101 @@
         }
       }
       / شاشة الموبايل /
-	@media (max-width: 400px) {
-  	body {
-    	font-size: 1.2em;
-    	background-size: contain;
-  	}
+	@m/ تنسيق الزر /
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 
-    h1 {
-      font-size: 1.5em;
-    }
+button:hover {
+  background-color: #0056b3;
+}
 
-    h2 {
-      font-size: 1.2em;
-    }
-
-    button {
-      font-size: 1em;
-      padding: 10px 20px;
-    }
+/ شاشة صغيرة جدًا (موبايل قديم) /
+@media (max-width: 400px) {
+  body {
+    font-size: 1em;
   }
+
+  h1 {
+    font-size: 1.2em;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
+
+  button {
+    font-size: 1em;
+    padding: 8px 16px;
+  }
+}
+
+/ شاشة موبايل عادية /
+@media (max-width: 600px) {
+  body {
+    font-size: 1.2em;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+  }
+}
+
+/ شاشة تابلت /
+@media (min-width: 600px) and (max-width: 1200px) {
+  body {
+    font-size: 1.4em;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  button {
+    font-size: 1.2em;
+    padding: 15px 30px;
+  }
+}
+
+/ شاشة كبيرة /
+@media (min-width: 1200px) {
+  body {
+    font-size: 1.8em;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  button {
+    font-size: 1.4em;
+    padding: 18px 36px;
+  }
+	  }
 
   / شاشة كبيرة /
   @media (min-width: 1200px) {
