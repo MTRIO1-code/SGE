@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Suez Tourist Attractions</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; background-color: #f0f8ff; }
+    h1 { color: #005f73; }
+    h2 { color: #0a9396; margin-top: 30px; }
+    button { margin: 5px 0; padding: 10px; background-color: #94d2bd; border: none; cursor: pointer; }
+    .links { display: none; margin-bottom: 15px; }
+    a { display: block; margin: 5px 0; color: #0077b6; text-decoration: none; }
+  </style>
+  <script>
+    function toggleLinks(id) {
+      const el = document.getElementById(id);
+      el.style.display = el.style.display === "none" ? "block" : "none";
+    }
+  </script>
+</head>
+<body>
+  <h1>Suez Tourist Attractions</h1>
+
+  <h2>Historical</h2>
+  <button onclick="toggleLinks('canal')">Old Suez Canal</button>
+  <div class="links" id="canal">
+    <a href="https://maps.google.com/?q=قناة+السويس+بورتوفيق" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('museum')">Suez National Museum</button>
+  <div class="links" id="museum">
+    <a href="https://maps.google.com/?q=Suez+National+Museum" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('palace')">Mohamed Ali Palace</button>
+  <div class="links" id="palace">
+    <a href="https://maps.google.com/?q=Mohamed+Ali+Palace+Suez" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('Port-tawfik')">Port Tawfik</button>
+  <div class="links" id="Port-tawfik">
+    <a href="https://maps.google.com/?q=بورتوفيق+السويس" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <h2>Religious</h2>
+  <button onclick="toggleLinks('ghareeb')">Al-Ghareeb Mosque</button>
+  <div class="links" id="ghareeb">
+    <a href="https://maps.google.com/?q=Al-Ghareeb+Mosque+Suez" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('george')">St. George Church</button>
+  <div class="links" id="george">
+    <a href="https://maps.google.com/?q=St+George+Church+Suez" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('arbaeen')">Al-Arbaeen Mosque</button>
+  <div class="links" id="arbaeen">
+    <a href="https://maps.google.com/?q=Al-Arbaeen+Mosque+Suez" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('badr')">Badr Mosque</button>
+  <div class="links" id="badr">
+    <a href="https://maps.google.com/?q=مسجد+بدر+السويس" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('hamza')">Hamza Mosque</button>
+  <div class="links" id="hamza">
+    <a href="https://maps.google.com/?q=مسجد+حمزة+السويس" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <h2>Cultural</h2>
+  <button onclick="toggleLinks('culture')">Suez Cultural Center</button>
+  <div class="links" id="culture">
+    <a href="https://maps.google.com/?q=Suez+Cultural+Center" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('library')">Suez Public Library</button>
+  <div class="links" id="library">
+    <a href="https://maps.google.com/?q=Suez+Public+Library" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('azhar')">Historic Azhar Institute</button>
+  <div class="links" id="azhar">
+    <a href="https://maps.google.com/?q=Azhar+Institute+Suez" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <h2>Entertainment</h2>
+  <button onclick="toggleLinks('corniche')">Suez Corniche</button>
+  <div class="links" id="corniche">
+    <a href="https://maps.google.com/?q=Suez+Corniche" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('park')">Martyrs Park</button>
+  <div class="links" id="park">
+    <a href="https://maps.google.com/?q=Martyrs+Park+Suez" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('club')">Al-Nasr Sports Club</button>
+  <div class="links" id="club">
+    <a href="https://maps.google.com/?q=Al-Nasr+Sports+Club+Suez" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  
+<h2>Natural</h2>
+<button onclick="toggleLinks('fransawy')">Fransawy Garden</button>
+<div class="links" id="fransawy">
+  <a href="https://maps.google.com/?q=حديقة+الفرنساوي+السويس" target="_blank">Google Maps</a>
+  <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+</div>
+
+<button onclick="toggleLinks('governor_garden')">Governorate Garden</button>
+<div class="links" id="governor_garden">
+  <a href="https://maps.google.com/?q=حديقة+المحافظة+السويس" target="_blank">Google Maps</a>
+  <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+</div>
+
+<button onclick="toggleLinks('galala_mountain')">Galala Mountain Area</button>
+<div class="links" id="galala_mountain">
+  <a href="https://maps.google.com/?q=منطقة+الجلالة+الجبلية+السويس" target="_blank">Google Maps</a>
+  <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+</div>
+
+<h2>Waterfront / Residential</h2>
+<button onclick="toggleLinks('chalets')">Port Tawfik Chalets</button>
+<div class="links" id="chalets">
+  <a href="https://maps.google.com/?q=شاليهات+بورتوفيق+السويس" target="_blank">Google Maps</a>
+  <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+</div>
+
+<button onclick="toggleLinks('fanar')">Fanar Square</button>
+<div class="links" id="fanar">
+  <a href="https://maps.google.com/?q=ميدان+الفنار+بورتوفيق+السويس" target="_blank">Google Maps</a>
+  <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+</div>
+
+<button onclick="toggleLinks('hayaat_buildings')">Hay’at Buildings – Port Tawfik</button>
+<div class="links" id="hayaat_buildings">
+  <a href="https://maps.google.com/?q=مساكن+الهيئة+بورتوفيق+السويس" target="_blank">Google Maps</a>
+  <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+</div>
+
+<button onclick="toggleLinks('sokhna_beaches')">Ain Sokhna Beaches</button>
+<div class="links" id="sokhna_beaches">
+  <a href="https://maps.google.com/?q=شواطئ+السخنة+السويس" target="_blank">Google Maps</a>
+  <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+</div>
+<h2>Back</h2>
+<button onclick="window.location.href='Gov.html'">Back to Regions</button>
+</body>
+</html>

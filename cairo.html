@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cairo Tourist Attractions</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; background-color: #f0f8ff; }
+    h1 { color: #005f73; }
+    h2 { color: #0a9396; margin-top: 30px; }
+    button { margin: 5px 0; padding: 10px; background-color: #94d2bd; border: none; cursor: pointer; }
+    .links { display: none; margin-bottom: 15px; }
+    a { display: block; margin: 5px 0; color: #0077b6; text-decoration: none; }
+  </style>
+  <script>
+    function toggleLinks(id) {
+      const el = document.getElementById(id);
+      el.style.display = el.style.display === "none" ? "block" : "none";
+    }
+  </script>
+</head>
+<body>
+  <h1>Cairo Tourist Attractions</h1>
+
+  <h2>Historical</h2>
+  <button onclick="toggleLinks('museum')">Egyptian Museum</button>
+  <div class="links" id="museum">
+    <a href="https://maps.google.com/?q=Egyptian+Museum+Cairo" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('citadel')">Citadel & Mosque of Muhammad Ali</button>
+  <div class="links" id="citadel">
+    <a href="https://maps.google.com/?q=Cairo+Citadel+Muhammad+Ali+Mosque" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('muizz')">Al-Muizz Street</button>
+  <div class="links" id="muizz">
+    <a href="https://maps.google.com/?q=Al-Muizz+Street+Cairo" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('khan')">Khan El Khalili</button>
+  <div class="links" id="khan">
+    <a href="https://maps.google.com/?q=Khan+El+Khalili+Cairo" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('baron')">Baron Empain Palace</button>
+  <div class="links" id="baron">
+    <a href="https://maps.google.com/?q=Baron+Palace+Cairo" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <h2>Religious</h2>
+  <button onclick="toggleLinks('sultan')">Sultan Hassan Mosque</button>
+  <div class="links" id="sultan">
+    <a href="https://maps.google.com/?q=Sultan+Hassan+Mosque+Cairo" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('rifai')">Al-Rifa'i Mosque</button>
+  <div class="links" id="rifai">
+    <a href="https://maps.google.com/?q=Al-Rifai+Mosque+Cairo" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('sergius')">Saint Sergius Church (Abu Serga)</button>
+  <div class="links" id="sergius">
+    <a href="https://maps.google.com/?q=Saint+Sergius+Church+Cairo" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <h2>Cultural</h2>
+  <button onclick="toggleLinks('opera')">Cairo Opera House</button>
+  <div class="links" id="opera">
+    <a href="https://maps.google.com/?q=Cairo+Opera+House" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('manial')">Manial Palace Museum</button>
+  <div class="links" id="manial">
+    <a href="https://maps.google.com/?q=Manial+Palace+Museum+Cairo" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <h2>Natural</h2>
+  <button onclick="toggleLinks('azhar')">Al-Azhar Park</button>
+  <div class="links" id="azhar">
+    <a href="https://maps.google.com/?q=Al-Azhar+Park+Cairo" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+
+  <button onclick="toggleLinks('botanic')">Botanical Garden (Orman)</button>
+  <div class="links" id="botanic">
+    <a href="https://maps.google.com/?q=Orman+Botanical+Garden+Cairo" target="_blank">Google Maps</a>
+    <a href="https://www.uber.com/eg/ar/ride/" target="_blank">Uber Egypt</a>
+  </div>
+<h2>Back</h2>
+<button onclick="window.location.href='Gov.html'">Back to Regions</button>
+</body>
+</html>
