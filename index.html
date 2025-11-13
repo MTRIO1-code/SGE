@@ -1,131 +1,19 @@
+<!doctype html>
 <html>
   <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>SGE.com</title>
-    <style>
-      body {
-        background-image: url('Background.jpg');
-        background-size: 345% auto;
-        background-position: left center;
-        background-repeat: no-repeat;
-        animation: panorama 20s infinite alternate linear;
-      }
-
-      @keyframes panorama {
-        from {
-          background-position: left center;
-        }
-        to {
-          background-position: right center;
-        }
-      }
-      / شاشة الموبايل /
-	@m/ تنسيق الزر /
-button {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  padding: 12px 24px;
-  font-size: 1.2em;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #0056b3;
-}
-
-/ شاشة صغيرة جدًا (موبايل قديم) /
-@media (max-width: 400px) {
-  body {
-    font-size: 1.2em;
-  }
-
-  h1 {
-    font-size: 1.5em;
-  }
-
-  h2 {
-    font-size: 1.2em;
-  }
-
-  button {
-    font-size: 1.2em;
-    padding: 8px 16px;
-  }
-}
-
-/ شاشة موبايل عادية /
-@media (max-width: 600px) {
-  body {
-    font-size: 1.4em;
-  }
-
-  h1 {
-    font-size: 1.8em;
-  }
-
-  h2 {
-    font-size: 1.4em;
-  }
-
-  button {
-    font-size: 1.4em;
-    padding: 10px 20px;
-  }
-}
-
-/ شاشة تابلت /
-@media (min-width: 600px) and (max-width: 1200px) {
-  body {
-    font-size: 1.6em;
-  }
-
-  h1 {
-    font-size: 2.2em;
-  }
-
-  h2 {
-    font-size: 1.8em;
-  }
-
-  button {
-    font-size: 1.6em;
-    padding: 15px 30px;
-  }
-}
-
-/ شاشة كبيرة /
-@media (min-width: 1200px) {
-  body {
-    font-size: 1.8em;
-  }
-
-  h1 {
-    font-size: 2.5em;
-  }
-
-  h2 {
-    font-size: 2em;
-  }
-
-  button {
-    font-size: 1.8em;
-    padding: 18px 36px;
-  }
-
-  }
-
-    </style>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Welcome to SGE Smart Egypt Guide</h1>
-    <p>I'm SGE your smart guide in Egypt, I will help you to explore our country</p>
-    <h2>Explore Egypt like never before</h2>
-    <a href="3.html">
-      <button>Get Started!</button>
-    </a>
+    <div class="hero">
+      <div class="container">
+        <h1>Welcome to SGE Smart Egypt Guide</h1>
+        <p>I'm SGE your smart guide in Egypt, I will help you to explore our country</p>
+        <h2>Explore Egypt like never before</h2>
+        <a class="btn" href="3.html">Get Started!</a>
+      </div>
+    </div>
   </body>
 </html>
-  
-  
